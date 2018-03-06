@@ -5,7 +5,7 @@
   <artifactId>web01</artifactId>
   <packaging>war</packaging>
   <version>0.0.1-SNAPSHOT</version>
-  <name>web01 Maven Webapp</name>
+  <name>web01MavenWebapp</name>
   <url>http://maven.apache.org</url>
   
   <!-- 属性配置 -->
@@ -21,6 +21,50 @@
         <artifactId>junit</artifactId>
         <version>3.8.1</version>
         <scope>test</scope>
+    </dependency>
+    
+    <!-- 添加spring依赖 -->
+    <dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-beans</artifactId>
+    	<version>5.0.4.RELEASE</version>
+    </dependency>
+    
+    <dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-core</artifactId>
+    	<version>5.0.4.RELEASE</version>
+    </dependency>
+    
+    <dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-context</artifactId>
+    	<version>5.0.4.RELEASE</version>
+    </dependency>
+    
+    <dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-web</artifactId>
+    	<version>5.0.4.RELEASE</version>
+    </dependency>
+    
+    <dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-jdbc</artifactId>
+    	<version>5.0.4.RELEASE</version>
+    </dependency>
+    
+    <dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-aop</artifactId>
+    	<version>5.0.4.RELEASE</version>
+    </dependency>
+    
+    <!-- AOP的依赖，@Aspect注解在里面 -->
+    <dependency>
+    	<groupId>org.springframework</groupId>
+    	<artifactId>spring-aspects</artifactId>
+    	<version>5.0.4.RELEASE</version>
     </dependency>
     
     <!-- 添加Servlet -->
